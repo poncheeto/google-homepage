@@ -8,6 +8,7 @@
 }
 
 #search {
+    padding: 12px;
     
 }
 
@@ -15,4 +16,5 @@
     position: absolute;
     top: 0px;
     right: 0px;;
+    padding: 20px;
 }
