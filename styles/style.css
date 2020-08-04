@@ -28,5 +28,25 @@ body {
     top: 0px;
     right: 0px;;
     padding: 20px;
+    
 
+}
+
+.navbar a {
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    align-items: center;
+    text-decoration: none;
+}
+
+#sign-in {
+    color: white;
+    font-weight: bold;
+    border: #4285f4;
+    background-color: #4285f4;
+    border-style: solid;
+    border-radius: 2px;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
 }
