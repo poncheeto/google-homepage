@@ -1,15 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .container {
     text-align: center;
 
 }
 
 .logo {
-    margin-top: 219px;
+    position: absolute;
+    padding-top: 219px;
 }
 
-#search {
-    padding: 12px;
+.search-bar {
+    position: absolute;
+    top: 355px;
+    left: 575px;
     
+}
+
+.search-bar input {
+    height: 30px;   
+    width: 500px;
 }
 
 .navbar {
@@ -17,4 +28,5 @@
     top: 0px;
     right: 0px;;
     padding: 20px;
+
 }
