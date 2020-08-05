@@ -24,7 +24,7 @@ input {
 }
 
 input:hover {
-    border-color :#a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+   box-shadow:  0px 0px 10px -6px rgb(45, 45, 45);
 }
 
 input:focus {
@@ -52,7 +52,7 @@ input:focus {
 
 .navbar a:hover {
     text-decoration: underline;
-    color: ;
+    color: black;
 }
 
 #sign-in {
@@ -65,4 +65,6 @@ input:focus {
     display: inline-block;
     line-height: 28px;
     padding: 0 12px;
+    text-decoration: none;
+    cursor: default;
 }
