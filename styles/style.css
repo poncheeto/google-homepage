@@ -32,12 +32,11 @@ input:focus {
 }
 
 .navbar {
-    border: 5px solid black;
     position: absolute;
-    top: 0px;
+    top: 10px;
     right: 0px;
     width: 280px;
-    padding: 20px;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -49,6 +48,11 @@ input:focus {
     color: rgba(0,0,0,0.87);
     font-size: 13px;
     text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: ;
 }
 
 #sign-in {
