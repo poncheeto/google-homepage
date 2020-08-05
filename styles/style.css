@@ -50,6 +50,14 @@ input:focus {
     text-decoration: none;
 }
 
+#apps {
+    opacity: 0.55;
+}
+
+#apps:hover {
+    opacity: 0.85;
+}
+
 .navbar a:hover {
     text-decoration: underline;
     color: black;
