@@ -17,8 +17,23 @@ body {
 }
 
 input {
-    border: none;
-    width: 500px;
+    width: 450px;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 20px;
+    outline: none;
+
+
+}
+
+input:hover {
+    border-color :#a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+input:focus {
+    border-color: #4d90fe;
 }
 
 .navbar {
