@@ -8,8 +8,19 @@ body {
 }
 
 .search-bar {
-    text-align: center;
-    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1.5rem 4fr;
+    overflow: hidden;
+}
+
+.mag {
+    height: 19px;
+    opacity: 0.55;
+    padding: 0.5rem;
+    grid-row: 1;
+    grid-column: 1/2;
+    z-index: 2;
+
 }
 
 input {
@@ -20,11 +31,13 @@ input {
     border: 1px solid #eaeaea;
     border-radius: 20px;
     outline: none;
+    grid-row: 1;
+    grid-column: 2/2;
 
 }
 
 input:hover {
-   box-shadow:  0px 0px 10px -6px rgb(45, 45, 45);
+    box-shadow:  0px 0px 10px -6px rgb(45, 45, 45);
 }
 
 input:focus {
