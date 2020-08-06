@@ -4,7 +4,7 @@ body {
 
 .logo {
     text-align: center;
-    margin-top: 240px;
+    margin-top: 160px;
 }
 
 .flex-box {
@@ -17,13 +17,14 @@ body {
     display: grid;
     grid-template-columns: 1.5rem 1fr;
     width: 482px;
-    overflow: hidden;
 }
 
 .mag {
     height: 19px;
     opacity: 0.55;
-    padding: 1.5rem;
+    padding: 1.02rem;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 input {
