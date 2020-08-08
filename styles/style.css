@@ -167,3 +167,21 @@ footer{
     border: 1px solid #e4e4e4;
 }
 
+#country {
+    margin-left: 30px;
+}
+
+#links a {
+    color: inherit;
+    text-decoration: none;
+    padding-left: 27px;
+}
+
+#left-footer {
+    float: left;
+}
+
+#right-footer {
+    float: right;
+    margin-right: 30px;
+}
