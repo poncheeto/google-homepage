@@ -90,6 +90,25 @@ html, body {
     cursor: pointer;
 }
 
+.button:hover {
+    color:black;
+    border:  1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#lang {
+    padding-top: 20px;
+}
+
+#lang a {
+    text-decoration: none;
+    color: blue;
+}
+
+#lang a:hover {
+    text-decoration: underline;
+}
+
 .navbar {
     position: absolute;
     top: 10px;
